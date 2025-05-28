@@ -1,4 +1,4 @@
 {
   "**/*.{ts,js}": ["eslint --fix", "prettier --write"],
-  "src/**/*.{ts,tsx}": ["npm run test -- --findRelatedTests"]
+  "src/**/*.{spec,test}.{js,ts}": ["npm test -- --passWithNoTests"]
 }
